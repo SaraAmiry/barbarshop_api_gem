@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "barbershop_api"
+require_relative "../lib/barbershop_api"
+
+BarbershopApi::CLI.new.start 
